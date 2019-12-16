@@ -1,0 +1,49 @@
+/* HEADER */
+.header {
+  z-index: 20;
+}
+.scarcity {
+  background: $rose;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.header-title {
+  background: $black;
+  height: 80px;
+  a {
+      font-size: 40px;
+      color: $white;
+      font-weight: 100;
+  }
+}
+
+.header-title a:hover {
+  animation: float 1.5s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  25% {
+      transform: translateY(-6px);
+  }
+  50% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+@media(max-width: 769px) {
+  .header-title {
+      height: 60px;
+  }
+  .scarcity {
+      font-size: 14px;
+  }
+}

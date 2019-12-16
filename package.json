@@ -1,0 +1,21 @@
+{
+  "name": "bighandfilms",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ahondor@bitbucket.org/master_du/bighandfilms.git"
+  },
+  "author": "Savandor Team",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/master_du/bighandfilms#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

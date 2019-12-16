@@ -1,0 +1,115 @@
+/*=======================================
+      --===# MoxieLash theme #===--
+
+Table of contents:
+
+1. BASICS 
+  1.1 Variables
+  1.2 Standart preset
+  1.3 Grid
+  1.4 Components
+  1.5 Preloader (NOT USE)
+
+2. STRUCTURE
+  2.1 Header
+  2.2 Footer
+
+3. GENERAL PAGE
+  3.1 Homescreen
+  3.2 Slider-and-info
+  3.3 Featured
+  3.4 Video
+  3.5 FAQ
+  3.6 Space
+.
+=======================================*/
+
+/*------------------------
+------ 1. BASICS ---------
+------------------------*/
+
+//1.1 VARIABLES
+$rose: #F7A28D;
+$black: #000;
+$white: #fff;
+$lightblue: #eef3fd;
+$silver: #d3d3d3;
+$df: flex;
+$dg: grid;
+
+/* 1.2. Standart preset */
+@import '_standart-preset';
+
+/* 1.3 GRID */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width:1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+.center-all {
+    display: $df;
+    align-items: center;
+    justify-content: center;
+}
+
+/*1.4 Components */
+@import '_components';
+
+// 1.5 PRELOADER (NOT USE IN PROJECT)
+@import '_preloader';
+
+
+/*------------------------
+------ 2. STRUCTURE ------
+------------------------*/
+
+/* 2.1 ---- HEADER ----*/
+@import '_header';
+
+/*2.2 ----FOOTER----*/
+@import '_footer';
+
+
+/*------------------------
+---- 3. GENERAL PAGE -----
+------------------------*/
+
+/*3.1 ----homescreen----*/
+@import '_homescreen';
+
+/*3.2 ----slider-and-info----*/
+@import '_slider-and-info';
+
+/*3.3 -----featured----*/
+@import '_featured';
+
+/*3.4 ----video----*/
+@import '_video';
+
+/*3.5 ----faq----*/
+@import '_faq';
+
+/*3.6 ----space----*/
+@import '_space';
